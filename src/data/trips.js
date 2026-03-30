@@ -336,6 +336,168 @@ const trips = {
       },
     ],
   },
+  girlfriendMom: {
+    guestName: "女友媽媽",
+    arrivalDate: "2026-05-15",
+    totalDays: 7,
+    baseLocation: "Hoboken, NJ",
+    days: [
+      {
+        day: 1,
+        title: "抵達・歡迎！",
+        emoji: "✈️",
+        activities: [
+          {
+            time: "下午",
+            name: "接機",
+            location: "Newark Airport",
+            description: "接機後前往Hoboken安頓",
+            type: "transport",
+          },
+          {
+            time: "晚上",
+            name: "歡迎晚餐",
+            location: "Hoboken",
+            description: "溫馨的歡迎晚餐",
+            type: "food",
+          },
+        ],
+      },
+      {
+        day: 2,
+        title: "曼哈頓精華",
+        emoji: "🗽",
+        activities: [
+          {
+            time: "上午",
+            name: "自由女神像",
+            location: "Liberty Island",
+            description: "搭渡輪前往自由女神像",
+            type: "attraction",
+          },
+          {
+            time: "下午",
+            name: "時代廣場",
+            location: "Times Square",
+            description: "紐約最熱鬧的地方",
+            type: "attraction",
+          },
+          {
+            time: "晚上",
+            name: "唐人街晚餐",
+            location: "Chinatown",
+            description: "道地亞洲料理",
+            type: "food",
+          },
+        ],
+      },
+      {
+        day: 3,
+        title: "博物館日",
+        emoji: "🎨",
+        activities: [
+          {
+            time: "上午",
+            name: "大都會博物館",
+            location: "The Met",
+            description: "世界級藝術收藏",
+            type: "museum",
+          },
+          {
+            time: "下午",
+            name: "中央公園",
+            location: "Central Park",
+            description: "漫步紐約最大公園",
+            type: "nature",
+          },
+        ],
+      },
+      {
+        day: 4,
+        title: "布魯克林探索",
+        emoji: "🌉",
+        activities: [
+          {
+            time: "上午",
+            name: "布魯克林大橋",
+            location: "Brooklyn Bridge",
+            description: "步行過大橋欣賞天際線",
+            type: "attraction",
+          },
+          {
+            time: "下午",
+            name: "DUMBO藝術區",
+            location: "DUMBO, Brooklyn",
+            description: "最美的藝術街區",
+            type: "attraction",
+          },
+        ],
+      },
+      {
+        day: 5,
+        title: "紐澤西風光",
+        emoji: "🌊",
+        activities: [
+          {
+            time: "上午",
+            name: "自由州立公園",
+            location: "Liberty State Park",
+            description: "欣賞曼哈頓全景",
+            type: "nature",
+          },
+          {
+            time: "下午",
+            name: "Hoboken散步",
+            location: "Hoboken, NJ",
+            description: "探索我們生活的城市",
+            type: "attraction",
+          },
+        ],
+      },
+      {
+        day: 6,
+        title: "法拉盛・亞洲美食",
+        emoji: "🥟",
+        activities: [
+          {
+            time: "上午",
+            name: "法拉盛早餐",
+            location: "Flushing, Queens",
+            description: "最道地的中華料理",
+            type: "food",
+          },
+          {
+            time: "下午",
+            name: "購物",
+            location: "Flushing, Queens",
+            description: "亞洲超市、手搖飲",
+            type: "shopping",
+          },
+        ],
+      },
+      {
+        day: 7,
+        title: "返程・再見！",
+        emoji: "👋",
+        activities: [
+          {
+            time: "上午",
+            name: "最後早餐",
+            location: "Hoboken",
+            description: "最後一頓早餐",
+            type: "food",
+          },
+          {
+            time: "下午",
+            name: "送機",
+            location: "Newark Airport",
+            description: "送機返台",
+            type: "transport",
+          },
+        ],
+      },
+    ],
+  },
 };
 
 export default trips;
